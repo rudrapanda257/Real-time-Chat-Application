@@ -4,7 +4,7 @@ const messages = document.getElementById("messages");
 const form = document.getElementById("form");
 const input = document.getElementById("input");
 
-const userName = prompt(" JOIN OUTR CHAT ROOM, Enter Your Name Please ⌨.");
+const userName = prompt("Please Enter Your Name💻,To JOIN OUTR CHAT ROOM 🚪.");
 
 socket.emit("user:join", userName);
 
